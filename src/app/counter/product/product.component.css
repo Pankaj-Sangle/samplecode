@@ -1,0 +1,39 @@
+.product {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.btn {
+    all: unset;
+    cursor: pointer;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-success {
+    background-color: rgb(6, 113, 6);
+}
+
+.btn-danger {
+    background-color: rgb(131, 9, 9);
+}
+
+.product-img {
+    border-radius: 5px;
+    width: 50px;
+}
+
+.badge {
+    padding: 5px 15px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.badge-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
