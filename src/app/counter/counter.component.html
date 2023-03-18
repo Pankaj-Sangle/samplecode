@@ -1,4 +1,6 @@
 <div class="total-count">Total 0</div>
-<cnt-product></cnt-product>
-<cnt-product></cnt-product>
-<cnt-product></cnt-product>
+<cnt-product 
+    (incrementEvent)="handleIncrement($event)" 
+    (decrementEvent)="handleDecrement($event)" 
+    *ngFor="let product of products" [productInfo]="product"
+></cnt-product>

@@ -1,6 +1,6 @@
 <div class="product">
-    <div class="badge-container"><div class="badge">{{ count || 'zero' }}</div></div>
-    <img class="product-img" [src]="productImg" alt="product" />
+    <div class="badge-container"><div class="badge">{{productInfo.count || 'zero'}}</div></div>
+    <img class="product-img" [src]="productInfo.productImg" alt="product" />
     <button class="btn btn-danger" (click)="handleDecrement()">-</button>
     <button class="btn btn-success" (click)="handleIncrement()">+</button>
     <button class="btn btn-danger" (click)="handleDelete()">Delete</button>
